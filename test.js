@@ -52,20 +52,20 @@ function checkear(variable, tipo){
 
         if (nombre == "escaparates"){
             for (var i = 0; i < variable; i++){
-            document.getElementById('1').innerHTML += ("<img width='200'height='200'src='./images/escaparate.png'/><div class='text-block'><h3>"+puertas+"<h3/><h3>"+ofertas+"<h3/></div>");
+            document.getElementById('1').innerHTML += ("<img src='./images/escaparate.png'/><span class='caption'><h3>"+puertas+"<h3/><h3>"+ofertas+"<h3/></span>");
             puertas++;
         }}else if(nombre == "coches"){
             for (var i = 0; i < variable; i++){
-            document.getElementById('4').innerHTML += ("<img width='200'height='200'src='./images/coches.png'/>");
+            document.getElementById('4').innerHTML += ("<img src='./images/coches.png'/>");
         }}else if(nombre == "semaforo"){
             if (variable == "verde")
-                document.getElementById('4').innerHTML += ("<img width='200'height='200'src='./images/semaforoVerde.png'/>");
+                document.getElementById('4').innerHTML += ("<img src='./images/semaforoVerde.png'/>");
             else if (variable == "rojo")
-                document.getElementById('4').innerHTML += ("<img width='200'height='200'src='./images/semaforoRojo.png'/>");
+                document.getElementById('4').innerHTML += ("<img src='./images/semaforoRojo.png'/>");
             else if (variable == "amarillo")
-                document.getElementById('4').innerHTML += ("<img width='200'height='200'src='./images/semaforoAmarillo.png'/>");
+                document.getElementById('4').innerHTML += ("<img src='./images/semaforoAmarillo.png'/>");
             else
-            document.getElementById('4').innerHTML += ("<img width='200'height='200'src='./images/semaforo.png'/>");
+            document.getElementById('4').innerHTML += ("<img src='./images/semaforo.png'/>");
         }else if(nombre == "hora"){
-            document.getElementById('2').innerHTML += ("<img width='200'height='200' src='./images/reloj.png'/><div class='text-block'><h3>"+variable+"<h3/></div>");
+            document.getElementById('2').innerHTML += ("<img src='./images/reloj.png'/><span class='caption'><h3>"+variable+"<h3/></span>");
         }}
