@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  min-height: 100vh;         
+  background-color: #b9b9b9;
+  flex-direction: column;    
+}
+
+div {
+  display: flex;
+  justify-content: center;   
+  flex-wrap: wrap;           
+  gap: 10px;                 
+  background: white;
+  min-width: 200px;
+}
+img {
+    width: 200px;
+    height: 200px;}
+    .coches {
+  background-color: #ffdddd; 
+}
+
+
+.escaparates {
+  background-color: #ff9050; 
+  border-radius: 10px;
+}
+
+.acera {
+  background-color: #afafaf; 
+  width: 1000%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carretera {
+  background-color: #292929; 
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linea {
+  background-color: #ffffff; 
+  width: 100%;
+  height: 10px;
+}
+.reloj {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      font-size: 20px;
+      border-radius: 8px;
+      font-family: monospace;
+    }
+.box {
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 90%;
+    width: 90%;
+    gap: 0;
+    background-color: #aefff1; 
+}
